@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC37B9DE288CDCE400410718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37B9DD288CDCE400410718 /* AppDelegate.swift */; };
+		DC37B9E0288CDCE500410718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37B9DF288CDCE500410718 /* SceneDelegate.swift */; };
+		DC37B9E7288CDCE700410718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC37B9E6288CDCE700410718 /* Assets.xcassets */; };
+		DC37B9EA288CDCE700410718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC37B9E8288CDCE700410718 /* LaunchScreen.storyboard */; };
+		DC37B9F5288CDCE700410718 /* DewyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37B9F4288CDCE700410718 /* DewyTests.swift */; };
+		DC37B9FF288CDCE700410718 /* DewyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37B9FE288CDCE700410718 /* DewyUITests.swift */; };
+		DC37BA01288CDCE800410718 /* DewyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA00288CDCE800410718 /* DewyUITestsLaunchTests.swift */; };
+		DC37BA0F288CDD8600410718 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA0E288CDD8600410718 /* HomeViewController.swift */; };
+		DC37BA11288CDE1900410718 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC37BA10288CDE1900410718 /* HomeViewController.storyboard */; };
+		DC37BA15288CE17E00410718 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA14288CE17E00410718 /* TabBarViewController.swift */; };
+		DC37BA1B288CE8EF00410718 /* NetworkSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA1A288CE8EF00410718 /* NetworkSessionManager.swift */; };
+		DC37BA1E288CFBAD00410718 /* URLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA1D288CFBAD00410718 /* URLComponents.swift */; };
+		DC37BA21288CFBFB00410718 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA20288CFBFB00410718 /* NetworkRequest.swift */; };
+		DC37BA23288CFC2300410718 /* KeySpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA22288CFC2300410718 /* KeySpace.swift */; };
+		DC37BA25288CFD1600410718 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA24288CFD1600410718 /* WeatherAPI.swift */; };
+		DC37BA29288D000100410718 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA28288D000100410718 /* Number.swift */; };
+		DC37BA2B288D0E9000410718 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA2A288D0E9000410718 /* API.swift */; };
+		DC37BA2D288D100700410718 /* API+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37BA2C288D100700410718 /* API+Error.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC37B9F1288CDCE700410718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC37B9D2288CDCE400410718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC37B9D9288CDCE400410718;
+			remoteInfo = Dewy;
+		};
+		DC37B9FB288CDCE700410718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC37B9D2288CDCE400410718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC37B9D9288CDCE400410718;
+			remoteInfo = Dewy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC37B9DA288CDCE400410718 /* Dewy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dewy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC37B9DD288CDCE400410718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC37B9DF288CDCE500410718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC37B9E6288CDCE700410718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC37B9E9288CDCE700410718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC37B9EB288CDCE700410718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC37B9F0288CDCE700410718 /* DewyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DewyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC37B9F4288CDCE700410718 /* DewyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DewyTests.swift; sourceTree = "<group>"; };
+		DC37B9FA288CDCE700410718 /* DewyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DewyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC37B9FE288CDCE700410718 /* DewyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DewyUITests.swift; sourceTree = "<group>"; };
+		DC37BA00288CDCE800410718 /* DewyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DewyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC37BA0E288CDD8600410718 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DC37BA10288CDE1900410718 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		DC37BA14288CE17E00410718 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		DC37BA1A288CE8EF00410718 /* NetworkSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionManager.swift; sourceTree = "<group>"; };
+		DC37BA1D288CFBAD00410718 /* URLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponents.swift; sourceTree = "<group>"; };
+		DC37BA20288CFBFB00410718 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		DC37BA22288CFC2300410718 /* KeySpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySpace.swift; sourceTree = "<group>"; };
+		DC37BA24288CFD1600410718 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		DC37BA28288D000100410718 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		DC37BA2A288D0E9000410718 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		DC37BA2C288D100700410718 /* API+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Error.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC37B9D7288CDCE400410718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC37B9ED288CDCE700410718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC37B9F7288CDCE700410718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC37B9D1288CDCE400410718 = {
+			isa = PBXGroup;
+			children = (
+				DC37B9DC288CDCE400410718 /* Dewy */,
+				DC37B9F3288CDCE700410718 /* DewyTests */,
+				DC37B9FD288CDCE700410718 /* DewyUITests */,
+				DC37B9DB288CDCE400410718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC37B9DB288CDCE400410718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC37B9DA288CDCE400410718 /* Dewy.app */,
+				DC37B9F0288CDCE700410718 /* DewyTests.xctest */,
+				DC37B9FA288CDCE700410718 /* DewyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC37B9DC288CDCE400410718 /* Dewy */ = {
+			isa = PBXGroup;
+			children = (
+				DC37BA16288CE7E300410718 /* APIs */,
+				DC37BA1F288CFBE600410718 /* Network */,
+				DC37BA1C288CFB8900410718 /* Native Extensions */,
+				DC37BA0D288CDD7300410718 /* View Controllers */,
+				DC37BA22288CFC2300410718 /* KeySpace.swift */,
+				DC37B9DD288CDCE400410718 /* AppDelegate.swift */,
+				DC37B9DF288CDCE500410718 /* SceneDelegate.swift */,
+				DC37B9E6288CDCE700410718 /* Assets.xcassets */,
+				DC37B9E8288CDCE700410718 /* LaunchScreen.storyboard */,
+				DC37B9EB288CDCE700410718 /* Info.plist */,
+			);
+			path = Dewy;
+			sourceTree = "<group>";
+		};
+		DC37B9F3288CDCE700410718 /* DewyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC37B9F4288CDCE700410718 /* DewyTests.swift */,
+			);
+			path = DewyTests;
+			sourceTree = "<group>";
+		};
+		DC37B9FD288CDCE700410718 /* DewyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC37B9FE288CDCE700410718 /* DewyUITests.swift */,
+				DC37BA00288CDCE800410718 /* DewyUITestsLaunchTests.swift */,
+			);
+			path = DewyUITests;
+			sourceTree = "<group>";
+		};
+		DC37BA0D288CDD7300410718 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC37BA13288CE16D00410718 /* Tab Bar */,
+				DC37BA12288CDF6000410718 /* Home */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DC37BA12288CDF6000410718 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC37BA0E288CDD8600410718 /* HomeViewController.swift */,
+				DC37BA10288CDE1900410718 /* HomeViewController.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DC37BA13288CE16D00410718 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				DC37BA14288CE17E00410718 /* TabBarViewController.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		DC37BA16288CE7E300410718 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				DC37BA24288CFD1600410718 /* WeatherAPI.swift */,
+				DC37BA2A288D0E9000410718 /* API.swift */,
+				DC37BA2C288D100700410718 /* API+Error.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		DC37BA1C288CFB8900410718 /* Native Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC37BA28288D000100410718 /* Number.swift */,
+				DC37BA1D288CFBAD00410718 /* URLComponents.swift */,
+			);
+			path = "Native Extensions";
+			sourceTree = "<group>";
+		};
+		DC37BA1F288CFBE600410718 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DC37BA1A288CE8EF00410718 /* NetworkSessionManager.swift */,
+				DC37BA20288CFBFB00410718 /* NetworkRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC37B9D9288CDCE400410718 /* Dewy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC37BA04288CDCE800410718 /* Build configuration list for PBXNativeTarget "Dewy" */;
+			buildPhases = (
+				DC37B9D6288CDCE400410718 /* Sources */,
+				DC37B9D7288CDCE400410718 /* Frameworks */,
+				DC37B9D8288CDCE400410718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dewy;
+			productName = Dewy;
+			productReference = DC37B9DA288CDCE400410718 /* Dewy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC37B9EF288CDCE700410718 /* DewyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC37BA07288CDCE800410718 /* Build configuration list for PBXNativeTarget "DewyTests" */;
+			buildPhases = (
+				DC37B9EC288CDCE700410718 /* Sources */,
+				DC37B9ED288CDCE700410718 /* Frameworks */,
+				DC37B9EE288CDCE700410718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC37B9F2288CDCE700410718 /* PBXTargetDependency */,
+			);
+			name = DewyTests;
+			productName = DewyTests;
+			productReference = DC37B9F0288CDCE700410718 /* DewyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC37B9F9288CDCE700410718 /* DewyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC37BA0A288CDCE800410718 /* Build configuration list for PBXNativeTarget "DewyUITests" */;
+			buildPhases = (
+				DC37B9F6288CDCE700410718 /* Sources */,
+				DC37B9F7288CDCE700410718 /* Frameworks */,
+				DC37B9F8288CDCE700410718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC37B9FC288CDCE700410718 /* PBXTargetDependency */,
+			);
+			name = DewyUITests;
+			productName = DewyUITests;
+			productReference = DC37B9FA288CDCE700410718 /* DewyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC37B9D2288CDCE400410718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DC37B9D9288CDCE400410718 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					DC37B9EF288CDCE700410718 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = DC37B9D9288CDCE400410718;
+					};
+					DC37B9F9288CDCE700410718 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = DC37B9D9288CDCE400410718;
+					};
+				};
+			};
+			buildConfigurationList = DC37B9D5288CDCE400410718 /* Build configuration list for PBXProject "Dewy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC37B9D1288CDCE400410718;
+			productRefGroup = DC37B9DB288CDCE400410718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC37B9D9288CDCE400410718 /* Dewy */,
+				DC37B9EF288CDCE700410718 /* DewyTests */,
+				DC37B9F9288CDCE700410718 /* DewyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC37B9D8288CDCE400410718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC37B9EA288CDCE700410718 /* LaunchScreen.storyboard in Resources */,
+				DC37B9E7288CDCE700410718 /* Assets.xcassets in Resources */,
+				DC37BA11288CDE1900410718 /* HomeViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC37B9EE288CDCE700410718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC37B9F8288CDCE700410718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC37B9D6288CDCE400410718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC37BA2B288D0E9000410718 /* API.swift in Sources */,
+				DC37BA25288CFD1600410718 /* WeatherAPI.swift in Sources */,
+				DC37BA15288CE17E00410718 /* TabBarViewController.swift in Sources */,
+				DC37B9DE288CDCE400410718 /* AppDelegate.swift in Sources */,
+				DC37BA1B288CE8EF00410718 /* NetworkSessionManager.swift in Sources */,
+				DC37BA2D288D100700410718 /* API+Error.swift in Sources */,
+				DC37BA1E288CFBAD00410718 /* URLComponents.swift in Sources */,
+				DC37BA21288CFBFB00410718 /* NetworkRequest.swift in Sources */,
+				DC37B9E0288CDCE500410718 /* SceneDelegate.swift in Sources */,
+				DC37BA29288D000100410718 /* Number.swift in Sources */,
+				DC37BA23288CFC2300410718 /* KeySpace.swift in Sources */,
+				DC37BA0F288CDD8600410718 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC37B9EC288CDCE700410718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC37B9F5288CDCE700410718 /* DewyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC37B9F6288CDCE700410718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC37B9FF288CDCE700410718 /* DewyUITests.swift in Sources */,
+				DC37BA01288CDCE800410718 /* DewyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC37B9F2288CDCE700410718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC37B9D9288CDCE400410718 /* Dewy */;
+			targetProxy = DC37B9F1288CDCE700410718 /* PBXContainerItemProxy */;
+		};
+		DC37B9FC288CDCE700410718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC37B9D9288CDCE400410718 /* Dewy */;
+			targetProxy = DC37B9FB288CDCE700410718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC37B9E8288CDCE700410718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC37B9E9288CDCE700410718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC37BA02288CDCE800410718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC37BA03288CDCE800410718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC37BA05288CDCE800410718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dewy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zanvan.Dewy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC37BA06288CDCE800410718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dewy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zanvan.Dewy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC37BA08288CDCE800410718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zanvan.DewyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dewy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dewy";
+			};
+			name = Debug;
+		};
+		DC37BA09288CDCE800410718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zanvan.DewyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dewy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dewy";
+			};
+			name = Release;
+		};
+		DC37BA0B288CDCE800410718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zanvan.DewyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dewy;
+			};
+			name = Debug;
+		};
+		DC37BA0C288CDCE800410718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zanvan.DewyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dewy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC37B9D5288CDCE400410718 /* Build configuration list for PBXProject "Dewy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC37BA02288CDCE800410718 /* Debug */,
+				DC37BA03288CDCE800410718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC37BA04288CDCE800410718 /* Build configuration list for PBXNativeTarget "Dewy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC37BA05288CDCE800410718 /* Debug */,
+				DC37BA06288CDCE800410718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC37BA07288CDCE800410718 /* Build configuration list for PBXNativeTarget "DewyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC37BA08288CDCE800410718 /* Debug */,
+				DC37BA09288CDCE800410718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC37BA0A288CDCE800410718 /* Build configuration list for PBXNativeTarget "DewyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC37BA0B288CDCE800410718 /* Debug */,
+				DC37BA0C288CDCE800410718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC37B9D2288CDCE400410718 /* Project object */;
+}
